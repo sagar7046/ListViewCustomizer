@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+  "id": "c6cbe869-e9a7-4fec-82ff-5049c679178c",
+  "alias": "ListViewCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "items": {
+    "COMMAND_1": {
+      "title": {
+        "default": "Export Selected Rows"
+      },
+      "iconImageUrl": "https://img.icons8.com/nolan/64/000000/export-csv.png",
+      "type": "command"
+    },
+    "COMMAND_3": {
+      "type": "command",
+      "title": {
+        "default": "Export Selected Fields"
+      }
+    },
+    "COMMAND_2": {
+      "ariaLabel": {
+        "default": "Export To CSV"
+      },
+      "type": "command",
+      "title": {
+        "default": "Export To CSV"
+      },
+      "iconImageUrl": "https://img.icons8.com/color/96/000000/import-csv.png"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://gayasagar.sharepoint.com/sites/MySite/Lists/Cases/AllItems.aspx",
+      "customActions": {
+        "c6cbe869-e9a7-4fec-82ff-5049c679178c": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "listView": {
+      "pageUrl": "https://gayasagar.sharepoint.com/sites/MySite/Lists/Cases/AllItems.aspx",
+      "customActions": {
+        "c6cbe869-e9a7-4fec-82ff-5049c679178c": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
